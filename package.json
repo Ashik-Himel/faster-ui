@@ -1,0 +1,16 @@
+{
+  "name": "faster-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i tailwind.css -o style.css --watch",
+    "minify": "npx tailwindcss -o style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
