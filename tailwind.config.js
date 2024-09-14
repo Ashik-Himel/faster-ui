@@ -23,6 +23,7 @@ module.exports = {
         "bg-color": "#F5F8FF",
         "dark-1": "#252432",
         "dark-2": "#8987A1",
+        "border-color": "#D6DDED",
       }
     },
   },
