@@ -22,6 +22,20 @@ buttons.forEach(button => {
   });
 });
 
+// Swiper Slider
+const swiper = new Swiper('.swiper', {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 15,
+  loop: true,
+  initialSlide: 2,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
+
 // Get In Touch From Submission
 const getInTouchForm = document.getElementById('get-in-touch-form');
 getInTouchForm.addEventListener('submit', e => e.preventDefault());
