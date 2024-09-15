@@ -5,21 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FasterUI</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <!-- Inter and Raleway Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <!-- FontAwesome CDN -->
-    <script src="https://kit.fontawesome.com/a2ba3fb01f.js" crossorigin="anonymous"></script>
-    <!-- Swiper Slider CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" />
+    <!-- Swiper Slider CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Flowbite CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="font-inter antialiased bg-bg-color text-dark-2">
     <!-- Header Section -->
@@ -62,7 +57,7 @@
           </div>
         </section>
 
-        <section class="w-full max-w-[764px] mx-auto text-center pt-16 pb-28">
+        <section class="w-full max-w-[764px] mx-auto text-center pt-16 pb-28" data-aos="fade-up">
           <h1 class="text-5xl lg:text-7xl font-bold font-raleway text-black">
             Awesome UI Dark Template for Webflow Agency
           </h1>
@@ -77,7 +72,7 @@
         <h2 class="title mb-8">What We do</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           <!-- Card 1 -->
-          <div class="bg-white px-6 py-8 rounded-lg">
+          <div class="bg-white px-6 py-8 rounded-lg" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/sun.png" alt="Sun Icon" class="w-4" />
             </div>
@@ -86,7 +81,7 @@
           </div>
           
           <!-- Card 2 -->
-          <div class="bg-white px-6 py-8 rounded-lg">
+          <div class="bg-white px-6 py-8 rounded-lg" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/star.png" alt="Star Icon" class="w-4" />
             </div>
@@ -95,7 +90,7 @@
           </div>
 
           <!-- Card 3 -->
-          <div class="bg-white px-6 py-8 rounded-lg">
+          <div class="bg-white px-6 py-8 rounded-lg" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/computer.png" alt="Computer Icon" class="w-4" />
             </div>
@@ -104,7 +99,7 @@
           </div>
 
           <!-- Card 4 -->
-          <div class="bg-white px-6 py-8 rounded-lg md:row-span-2 md:row-start-1 md:col-start-2 lg:col-start-3 xl:row-start-auto xl:col-start-auto">
+          <div class="bg-white px-6 py-8 rounded-lg md:row-span-2 md:row-start-1 md:col-start-2 lg:col-start-3 xl:row-start-auto xl:col-start-auto" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/bag.png" alt="Bag Icon" class="w-4" />
             </div>
@@ -114,7 +109,7 @@
           </div>
 
           <!-- Card 5 -->
-          <div class="bg-white px-6 py-8 rounded-lg">
+          <div class="bg-white px-6 py-8 rounded-lg" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/webflow.png" alt="Webflow Icon" class="w-4" />
             </div>
@@ -123,12 +118,12 @@
           </div>
 
           <!-- Card 6 -->
-          <div class="bg-secondary flex justify-center items-center rounded-lg p-10 md:p-0 lg:col-span-2 xl:col-span-1">
+          <div class="bg-secondary flex justify-center items-center rounded-lg p-10 md:p-0 lg:col-span-2 xl:col-span-1" data-aos="fade-up">
             <img src="images/icons/webflow-big.png" alt="Webflow Icon" class="w-36">
           </div>
 
           <!-- Card 7 -->
-          <div class="bg-white px-6 py-8 rounded-lg">
+          <div class="bg-white px-6 py-8 rounded-lg" data-aos="fade-up">
             <div class="w-10 h-10 rounded-md bg-bg-color flex justify-center items-center">
               <img src="images/icons/terminal.png" alt="Terminal Icon" class="w-4" />
             </div>
@@ -156,17 +151,17 @@
 
       <div class="swiper mt-4">
         <div class="swiper-wrapper">
-          <div class="swiper-slide !w-[50%]">
+          <div class="swiper-slide !w-[50%]" data-aos="fade-up">
             <div class="bg-gray-100 p-4 rounded-md">
               <img src="images/works/works-1.png" alt="Work Image" class="w-full">
             </div>
           </div>
-          <div class="swiper-slide !w-[50%]">
+          <div class="swiper-slide !w-[50%]" data-aos="fade-up">
             <div class="bg-gray-100 p-4 rounded-md">
               <img src="images/works/works-2.png" alt="Work Image" class="w-full">
             </div>
           </div>
-          <div class="swiper-slide !w-[50%]">
+          <div class="swiper-slide !w-[50%]" data-aos="fade-up">
             <div class="bg-gray-100 p-4 rounded-md">
               <img src="images/works/works-3.png" alt="Work Image" class="w-full">
             </div>
@@ -178,7 +173,7 @@
     <!-- Review Card -->
     <section class="mt-16">
       <div class="container text-center">
-        <div class="bg-white px-6 py-4 rounded-lg inline-flex flex-wrap justify-center items-center gap-4">
+        <div class="bg-white px-6 py-4 rounded-lg inline-flex flex-wrap justify-center items-center gap-4" data-aos="fade-up">
           <div class="[&_img]:w-8 [&_img]:-ms-2 flex">
             <img src="images/peoples/people-1.png" alt="People Avatar" class="ms-0">
             <img src="images/peoples/people-2.png" alt="People Avatar">
@@ -203,8 +198,8 @@
     <!-- Pricing Section -->
     <section class="mt-16">
       <div class="container">
-        <div class="flex flex-col md:flex-row justify-center md:items-center gap-8 [&>*]:flex-1">
-          <div class="max-w-[350px]">
+        <div class="flex flex-col md:flex-row justify-center md:items-center gap-8 [&>*]:flex-1 overflow-x-hidden">
+          <div class="max-w-[350px]"  data-aos="fade-right">
             <h2 class="title">Pricing</h2>
             <p class="mt-4">Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.</p>
             <div class="bg-white p-4 rounded-lg mt-6 md:mt-12">
@@ -212,7 +207,7 @@
               <button class="mt-6 btn btn-primary block">Schedule Meeting</button>
             </div>
           </div>
-          <div class="bg-white p-4 rounded-lg max-w-[650px]">
+          <div class="bg-white p-4 rounded-lg max-w-[650px]" data-aos="fade-left">
             <h4 class="text-dark-1 text-2xl font-bold">Unlimited Services</h4>
             <p class="mt-6">Take a look at some of our recent projects to see how we've helped businesses like yours succeed online.</p>
             <div class="flex justify-start items-center gap-6 lg:gap-24 mt-6">
@@ -257,12 +252,12 @@
     <!-- FAQ Section -->
     <section class="mt-6 mb-8 pt-20 pb-20 bg-[url('images/bg/section-bg-2.png')] bg-no-repeat bg-[left_top] bg-[auto_650px]">
       <div class="container">
-        <div class="flex flex-col md:flex-row justify-center items-center gap-6">
-          <div class="basis-[30%] lg:basis-[40%]">
+        <div class="flex flex-col md:flex-row justify-center items-center gap-6 overflow-hidden">
+          <div class="basis-[30%] lg:basis-[40%]" data-aos="fade-right">
             <h2 class="title max-w-[300px] mx-auto text-center md:text-left">Frequently Asked Questions</h2>
           </div>
           
-          <div id="accordion-collapse" data-accordion="collapse" class="w-full md:w-auto md:basis-[70%] lg:basis-[60%]">
+          <div id="accordion-collapse" data-accordion="collapse" class="w-full md:w-auto md:basis-[70%] lg:basis-[60%]" data-aos="fade-left">
             <!-- Accordion Item 1 -->
             <h2 id="accordion-open-heading-1">
               <button type="button" class="bg-white text-dark-1 font-raleway font-bold flex items-center justify-between w-full p-5 gap-3" data-accordion-target="#accordion-open-body-1" aria-expanded="true" aria-controls="accordion-open-body-1">
@@ -274,7 +269,7 @@
             </h2>
             <div id="accordion-open-body-1" class="hidden" aria-labelledby="accordion-open-heading-1">
               <div class="p-5 bg-white">
-                <p>You can reach us through our contact form on our website or by emailing us at <span class="text-dark-1 font-bold">hello@inkyy.com</span> We typically respond within 24 hours.</p>
+                <p>You can reach us through our contact form on our website or by emailing us at <a href="mailto:hello@inkyy.com" target="_blank" class="text-dark-1 font-bold">hello@inkyy.com</a> We typically respond within 24 hours.</p>
               </div>
             </div>
             <!-- Accordion Item 2 -->
@@ -288,7 +283,7 @@
             </h2>
             <div id="accordion-open-body-2" class="hidden" aria-labelledby="accordion-open-heading-2">
               <div class="p-5 bg-white mb-4">
-                <p>You can reach us through our contact form on our website or by emailing us at <span class="text-dark-1 font-bold">hello@inkyy.com</span> We typically respond within 24 hours.</p>
+                <p>We are offering web design, UI/UX design, eCommerce solution, custom development to our client. You can contact use for any of those.</p>
               </div>
             </div>
             <!-- Accordion Item 3 -->
@@ -302,7 +297,7 @@
             </h2>
             <div id="accordion-open-body-3" class="hidden" aria-labelledby="accordion-open-heading-3">
               <div class="p-5 bg-white mb-4">
-                <p>You can reach us through our contact form on our website or by emailing us at <span class="text-dark-1 font-bold">hello@inkyy.com</span> We typically respond within 24 hours.</p>
+                <p>Yes, we are offering the website maintenance services to our client. We have special discount on maintenance on that product we made.</p>
               </div>
             </div>
             <!-- Accordion Item 4 -->
@@ -316,7 +311,7 @@
             </h2>
             <div id="accordion-open-body-4" class="hidden" aria-labelledby="accordion-open-heading-4">
               <div class="p-5 bg-white mb-4">
-                <p>You can reach us through our contact form on our website or by emailing us at <span class="text-dark-1 font-bold">hello@inkyy.com</span> We typically respond within 24 hours.</p>
+                <p>It depends on the application&apos;s pages, functionalities and so on. We have organized teams to complete any project as soon as possible.</p>
               </div>
             </div>
             <!-- Accordion Item 5 -->
@@ -330,7 +325,7 @@
             </h2>
             <div id="accordion-open-body-5" class="hidden" aria-labelledby="accordion-open-heading-5">
               <div class="p-5 bg-white mb-4">
-                <p>You can reach us through our contact form on our website or by emailing us at <span class="text-dark-1 font-bold">hello@inkyy.com</span> We typically respond within 24 hours.</p>
+                <p>Yes, you have to pay 25% of total payment to confirm your project. Then the rest payment will be taken after completing the project.</p>
               </div>
             </div>
           </div>
@@ -340,7 +335,7 @@
 
     <div class="bg-[url('images/bg/footer-bg.png')] bg-no-repeat [background-size:100%] bg-[left_bottom]">
       <!-- Get in Touch Section -->
-      <section id="get-in-touch" class="border-t border-border-color pt-20 bg-[url('images/bg/section-bg-3.png')] bg-no-repeat bg-[calc(100%-50px)_top] relative z-10">
+      <section id="get-in-touch" class="border-t border-border-color pt-20 bg-[url('images/bg/section-bg-3.png')] bg-no-repeat bg-[calc(100%-50px)_top] relative z-10" data-aos="fade-up">
         <div class="container">
           <h2 class="title text-center mb-10">Let&apos;s Get in Touch</h2>
           <form id="get-in-touch-form" class="max-w-[550px] mx-auto">
@@ -361,7 +356,7 @@
       <!-- Footer Section -->
       <footer class="-mt-[400px] pt-[480px] pb-16 bg-[url('images/bg/section-bg-4.png')] bg-no-repeat bg-[left_top]">
         <div class="container">
-          <div class="bg-white p-8 rounded-2xl flex flex-col md:flex-row justify-between items-center gap-x-8 gap-y-10 [&>*]:w-full">
+          <div class="bg-white p-8 rounded-2xl flex flex-col md:flex-row justify-between items-center gap-x-8 gap-y-10 [&>*]:w-full" data-aos="fade-up">
             <div>
               <a href="#" class="flex items-center gap-2">
                 <img src="images/favicon.png" alt="Brand Icon" class="w-8" />
@@ -401,6 +396,13 @@
       </footer>
     </div>
 
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Flowbite JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <!-- Custom JS -->
     <script src="script.js"></script>
   </body>
 </html>

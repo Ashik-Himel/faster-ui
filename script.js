@@ -1,3 +1,9 @@
+// AOS
+AOS.init({
+  duration: 500,
+  offset: 150
+});
+
 // Sidebar
 const bar = document.getElementById('bar');
 const XMark = document.getElementById('x-mark');
