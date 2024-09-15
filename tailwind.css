@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+}
+
 @layer components {
   .btn {
     @apply inline-block px-8 py-3 font-raleway font-bold rounded-lg;

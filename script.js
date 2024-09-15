@@ -38,4 +38,8 @@ const swiper = new Swiper('.swiper', {
 
 // Get In Touch From Submission
 const getInTouchForm = document.getElementById('get-in-touch-form');
-getInTouchForm.addEventListener('submit', e => e.preventDefault());
+getInTouchForm.addEventListener('submit', e => {
+  e.preventDefault();
+  e.target.reset();
+  alert('Message sent successfully!');
+});
